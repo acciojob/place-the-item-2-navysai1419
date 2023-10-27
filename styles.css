@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+/* Apply flex properties to the holder */
+.holder {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  gap: 10px; /* Adjust the spacing between items as needed */
+}
+
+/* Optional styles for the individual items */
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  text-align: center;
+  line-height: 100px;
+}
